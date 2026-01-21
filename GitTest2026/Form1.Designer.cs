@@ -37,6 +37,7 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.Egons = new System.Windows.Forms.Button();
+            this.Katrīna = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -122,6 +123,15 @@
             this.Egons.TabIndex = 7;
             this.Egons.Text = "Egons";
             this.Egons.UseVisualStyleBackColor = true;
+            // Katrīna
+            // 
+            this.Katrīna.Location = new System.Drawing.Point(44, 375);
+            this.Katrīna.Name = "Katrīna";
+            this.Katrīna.Size = new System.Drawing.Size(75, 23);
+            this.Katrīna.TabIndex = 7;
+            this.Katrīna.Text = "Katrīna";
+            this.Katrīna.UseVisualStyleBackColor = true;
+            this.Katrīna.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -129,6 +139,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Egons);
+            this.Controls.Add(this.Katrīna);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -154,6 +165,7 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Button Egons;
+        private System.Windows.Forms.Button Katrīna;
     }
 }
 
