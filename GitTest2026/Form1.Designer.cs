@@ -36,6 +36,7 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rob = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -96,8 +97,8 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(617, 158);
-            this.checkBox3.Name = "variants3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 17);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(69, 17);
             this.checkBox3.TabIndex = 6;
             this.checkBox3.Text = "variants3";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -113,11 +114,22 @@
             this.radioButton1.Text = "radioButton1";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
+            // rob
+            // 
+            this.rob.Location = new System.Drawing.Point(594, 312);
+            this.rob.Name = "rob";
+            this.rob.Size = new System.Drawing.Size(75, 23);
+            this.rob.TabIndex = 7;
+            this.rob.Text = "Roberts";
+            this.rob.UseVisualStyleBackColor = true;
+            this.rob.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.rob);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -142,6 +154,7 @@
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button rob;
     }
 }
 
