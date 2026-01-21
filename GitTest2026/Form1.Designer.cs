@@ -98,7 +98,7 @@
             this.checkBox3.Name = "variants3";
             this.checkBox3.Size = new System.Drawing.Size(80, 17);
             this.checkBox3.TabIndex = 6;
-            this.checkBox3.Text = "checkBox3";
+            this.checkBox3.Text = "variants3";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // Form1
